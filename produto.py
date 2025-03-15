@@ -7,3 +7,6 @@ class Produto:
         self._data_fabricacao = data_fabricacao
         self._eh_ativo = eh_ativo
         self._categoria = categoria
+        
+    def __str__(self):
+        return f"{self._nome}: {self._descricao} - {self._categoria}"
