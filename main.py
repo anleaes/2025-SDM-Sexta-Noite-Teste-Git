@@ -1,3 +1,5 @@
+from categoria import Categoria
+
 def main():
     pass
 
